@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/fluxfaviconalt.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>FLUX - Workshops</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-top">
+                <div class="logo">
+                    <img src="images/fluxlogo.png" alt="FLUX Logo" class="nav-logo">
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="workshops.html" class="active">Workshops</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="workshops-hero">
+            <div class="workshops-hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">FLUX Workshops</span>
+                    <h1>Master Figma & UX Design</h1>
+                    <p class="hero-lead">Join hands-on workshops led by industry experts and student leaders. Perfect for beginners to advanced designers.</p>
+                    <div class="hero-cta">
+                        <a href="#upcoming-workshops" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Browse Workshops
+                        </a>
+                        <a href="#process" class="btn btn-secondary">
+                            <i class="fas fa-info-circle"></i> How It Works
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-stats-grid">
+                    <div class="hero-stat">
+                        <i class="fas fa-users"></i>
+                        <div class="stat-content">
+                            <span class="stat-number">1,000+</span>
+                            <span class="stat-label">Students Trained</span>
+                        </div>
+                    </div>
+                    <div class="hero-stat">
+                        <i class="fas fa-certificate"></i>
+                        <div class="stat-content">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Workshops/Year</span>
+                        </div>
+                    </div>
+                    <div class="hero-stat">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="stat-content">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Hands-on Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Workshops Section -->
+        <section id="upcoming-workshops" class="workshops-section">
+            <h2>Upcoming Workshops</h2>
+            <div class="workshops-grid">
+                <article class="workshop-card">
+                    <div class="workshop-header">
+                        <div class="workshop-image">
+                            <img src="https://via.placeholder.com/600x300/4A90E2/FFFFFF?text=Figma+Basics" 
+                                 alt="Screenshot of Figma Basics workshop interface showing layout tools and components">
+                        </div>
+                        <div class="workshop-badge">Beginner</div>
+                        <div class="workshop-overlay">
+                            <span class="spots-left"><i class="fas fa-users"></i> 30 spots left</span>
+                        </div>
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-info">
+                            <h3><i class="fas fa-laptop-code"></i> Figma Fundamentals</h3>
+                            <div class="workshop-meta">
+                                <span class="schedule">
+                                    <i class="fas fa-calendar-week"></i>
+                                    <div class="meta-text">
+                                        <strong>Day</strong><br>
+                                        Every Tuesday
+                                    </div>
+                                </span>
+                                <span class="time">
+                                    <i class="fas fa-hourglass-half"></i>
+                                    <div class="meta-text">
+                                        <strong>Time</strong><br>
+                                        6:00-7:30 PM
+                                    </div>
+                                </span>
+                                <span class="location">
+                                    <i class="fas fa-university"></i>
+                                    <div class="meta-text">
+                                        <strong>Location</strong><br>
+                                        Duderstadt Center
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="workshop-description">
+                            <p>Perfect for beginners! Learn the basics of Figma's interface, tools, and essential features.</p>
+                            <div class="skills-covered">
+                                <h4>What You'll Learn:</h4>
+                                <ul class="workshop-details">
+                                    <li><i class="fas fa-check-circle"></i> Creating frames and basic shapes</li>
+                                    <li><i class="fas fa-check-circle"></i> Working with layers and components</li>
+                                    <li><i class="fas fa-check-circle"></i> Understanding auto-layout</li>
+                                    <li><i class="fas fa-check-circle"></i> Basic prototyping</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workshop-footer">
+                            <div class="instructor">
+                                <img src="https://via.placeholder.com/40x40/45B7D1/FFFFFF?text=JS" 
+                                     alt="John Smith - Workshop Instructor" 
+                                     class="instructor-avatar">
+                                <span>Led by John Smith</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="workshop-card">
+                    <div class="workshop-header">
+                        <div class="workshop-image">
+                            <img src="https://via.placeholder.com/600x300/45B7D1/FFFFFF?text=Advanced+Prototyping" 
+                                 alt="Advanced Figma prototyping demonstration with interactive components">
+                        </div>
+                        <div class="workshop-badge">Intermediate</div>
+                        <div class="workshop-overlay">
+                            <span class="spots-left"><i class="fas fa-users"></i> 20 spots left</span>
+                        </div>
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-info">
+                            <h3><i class="fas fa-layer-group"></i> Advanced Prototyping</h3>
+                            <div class="workshop-meta">
+                                <span class="schedule">
+                                    <i class="fas fa-calendar-week"></i>
+                                    <div class="meta-text">
+                                        <strong>Day</strong><br>
+                                        Every Thursday
+                                    </div>
+                                </span>
+                                <span class="time">
+                                    <i class="fas fa-hourglass-half"></i>
+                                    <div class="meta-text">
+                                        <strong>Time</strong><br>
+                                        5:00-6:30 PM
+                                    </div>
+                                </span>
+                                <span class="location">
+                                    <i class="fas fa-university"></i>
+                                    <div class="meta-text">
+                                        <strong>Location</strong><br>
+                                        Duderstadt Center
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="workshop-description">
+                            <p>Take your Figma skills to the next level with advanced interaction design techniques.</p>
+                            <div class="skills-covered">
+                                <h4>What You'll Learn:</h4>
+                                <ul class="workshop-details">
+                                    <li><i class="fas fa-check-circle"></i> Complex animations and transitions</li>
+                                    <li><i class="fas fa-check-circle"></i> Smart animate features</li>
+                                    <li><i class="fas fa-check-circle"></i> Interactive components</li>
+                                    <li><i class="fas fa-check-circle"></i> Prototype testing methods</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workshop-footer">
+                            <div class="instructor">
+                                <img src="https://via.placeholder.com/40x40/4A90E2/FFFFFF?text=AK" 
+                                     alt="Amy Kim - Workshop Instructor" 
+                                     class="instructor-avatar">
+                                <span>Led by Amy Kim</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="workshop-card">
+                    <div class="workshop-header">
+                        <div class="workshop-image">
+                            <img src="https://via.placeholder.com/600x300/FF6B6B/FFFFFF?text=Design+Systems" 
+                                 alt="Design system components and documentation in Figma">
+                        </div>
+                        <div class="workshop-badge">Advanced</div>
+                        <div class="workshop-overlay">
+                            <span class="spots-left"><i class="fas fa-users"></i> 15 spots left</span>
+                        </div>
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-info">
+                            <h3><i class="fas fa-sitemap"></i> Design Systems Workshop</h3>
+                            <div class="workshop-meta">
+                                <span class="schedule">
+                                    <i class="fas fa-calendar-week"></i>
+                                    <div class="meta-text">
+                                        <strong>Day</strong><br>
+                                        Every Wednesday
+                                    </div>
+                                </span>
+                                <span class="time">
+                                    <i class="fas fa-hourglass-half"></i>
+                                    <div class="meta-text">
+                                        <strong>Time</strong><br>
+                                        7:00-8:30 PM
+                                    </div>
+                                </span>
+                                <span class="location">
+                                    <i class="fas fa-university"></i>
+                                    <div class="meta-text">
+                                        <strong>Location</strong><br>
+                                        Duderstadt Center
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="workshop-description">
+                            <p>Learn how to create and maintain scalable design systems in Figma.</p>
+                            <div class="skills-covered">
+                                <h4>What You'll Learn:</h4>
+                                <ul class="workshop-details">
+                                    <li><i class="fas fa-check-circle"></i> Component libraries</li>
+                                    <li><i class="fas fa-check-circle"></i> Style guides and documentation</li>
+                                    <li><i class="fas fa-check-circle"></i> Variables and properties</li>
+                                    <li><i class="fas fa-check-circle"></i> Team collaboration</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workshop-footer">
+                            <div class="instructor">
+                                <img src="https://via.placeholder.com/40x40/FF6B6B/FFFFFF?text=MP" 
+                                     alt="Mike Park - Workshop Instructor" 
+                                     class="instructor-avatar">
+                                <span>Led by Mike Park</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="workshop-card">
+                    <div class="workshop-header">
+                        <div class="workshop-image">
+                            <img src="https://via.placeholder.com/600x300/9C27B0/FFFFFF?text=UI+Animation" alt="UI Animation Workshop">
+                        </div>
+                        <div class="workshop-badge">Intermediate</div>
+                        <div class="workshop-overlay">
+                            <span class="spots-left"><i class="fas fa-users"></i> 25 spots left</span>
+                        </div>
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-info">
+                            <h3><i class="fas fa-film"></i> UI Animation in Figma</h3>
+                            <div class="workshop-meta">
+                                <span class="schedule">
+                                    <i class="fas fa-calendar-week"></i>
+                                    <div class="meta-text">
+                                        <strong>Day</strong><br>
+                                        Every Friday
+                                    </div>
+                                </span>
+                                <span class="time">
+                                    <i class="fas fa-hourglass-half"></i>
+                                    <div class="meta-text">
+                                        <strong>Time</strong><br>
+                                        4:00-5:30 PM
+                                    </div>
+                                </span>
+                                <span class="location">
+                                    <i class="fas fa-university"></i>
+                                    <div class="meta-text">
+                                        <strong>Location</strong><br>
+                                        Duderstadt Center
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="workshop-description">
+                            <p>Learn to create engaging micro-interactions and animations in your Figma prototypes.</p>
+                            <div class="skills-covered">
+                                <h4>What You'll Learn:</h4>
+                                <ul class="workshop-details">
+                                    <li><i class="fas fa-check-circle"></i> Smart animate fundamentals</li>
+                                    <li><i class="fas fa-check-circle"></i> Transition design</li>
+                                    <li><i class="fas fa-check-circle"></i> Micro-interactions</li>
+                                    <li><i class="fas fa-check-circle"></i> Animation timing and easing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workshop-footer">
+                            <div class="instructor">
+                                <img src="https://via.placeholder.com/40x40/9C27B0/FFFFFF?text=SL" alt="Sarah Lee" class="instructor-avatar">
+                                <span>Led by Sarah Lee</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="workshop-card">
+                    <div class="workshop-header">
+                        <div class="workshop-image">
+                            <img src="https://via.placeholder.com/600x300/FF5722/FFFFFF?text=Mobile+Design" alt="Mobile Design Workshop">
+                        </div>
+                        <div class="workshop-badge">Intermediate</div>
+                        <div class="workshop-overlay">
+                            <span class="spots-left"><i class="fas fa-users"></i> 18 spots left</span>
+                        </div>
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-info">
+                            <h3><i class="fas fa-mobile-alt"></i> Mobile App Design</h3>
+                            <div class="workshop-meta">
+                                <span class="schedule">
+                                    <i class="fas fa-calendar-week"></i>
+                                    <div class="meta-text">
+                                        <strong>Day</strong><br>
+                                        Every Monday
+                                    </div>
+                                </span>
+                                <span class="time">
+                                    <i class="fas fa-hourglass-half"></i>
+                                    <div class="meta-text">
+                                        <strong>Time</strong><br>
+                                        3:00-4:30 PM
+                                    </div>
+                                </span>
+                                <span class="location">
+                                    <i class="fas fa-university"></i>
+                                    <div class="meta-text">
+                                        <strong>Location</strong><br>
+                                        Duderstadt Center
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="workshop-description">
+                            <p>Master the principles of mobile UI/UX design and create engaging app interfaces.</p>
+                            <div class="skills-covered">
+                                <h4>What You'll Learn:</h4>
+                                <ul class="workshop-details">
+                                    <li><i class="fas fa-check-circle"></i> Mobile design patterns</li>
+                                    <li><i class="fas fa-check-circle"></i> Touch interactions</li>
+                                    <li><i class="fas fa-check-circle"></i> Responsive layouts</li>
+                                    <li><i class="fas fa-check-circle"></i> iOS and Android guidelines</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workshop-footer">
+                            <div class="instructor">
+                                <img src="https://via.placeholder.com/40x40/FF5722/FFFFFF?text=RJ" alt="Ryan Johnson" class="instructor-avatar">
+                                <span>Led by Ryan Johnson</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="workshop-card">
+                    <div class="workshop-header">
+                        <div class="workshop-image">
+                            <img src="https://via.placeholder.com/600x300/4CAF50/FFFFFF?text=Design+Research" alt="Design Research Workshop">
+                        </div>
+                        <div class="workshop-badge">Beginner</div>
+                        <div class="workshop-overlay">
+                            <span class="spots-left"><i class="fas fa-users"></i> 22 spots left</span>
+                        </div>
+                    </div>
+                    <div class="workshop-content">
+                        <div class="workshop-info">
+                            <h3><i class="fas fa-search"></i> UX Research Basics</h3>
+                            <div class="workshop-meta">
+                                <span class="schedule">
+                                    <i class="fas fa-calendar-week"></i>
+                                    <div class="meta-text">
+                                        <strong>Day</strong><br>
+                                        Every Thursday
+                                    </div>
+                                </span>
+                                <span class="time">
+                                    <i class="fas fa-hourglass-half"></i>
+                                    <div class="meta-text">
+                                        <strong>Time</strong><br>
+                                        2:00-3:30 PM
+                                    </div>
+                                </span>
+                                <span class="location">
+                                    <i class="fas fa-university"></i>
+                                    <div class="meta-text">
+                                        <strong>Location</strong><br>
+                                        Duderstadt Center
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="workshop-description">
+                            <p>Learn essential UX research methods and how to apply them in your design process.</p>
+                            <div class="skills-covered">
+                                <h4>What You'll Learn:</h4>
+                                <ul class="workshop-details">
+                                    <li><i class="fas fa-check-circle"></i> User interviews</li>
+                                    <li><i class="fas fa-check-circle"></i> Usability testing</li>
+                                    <li><i class="fas fa-check-circle"></i> Survey design</li>
+                                    <li><i class="fas fa-check-circle"></i> Research analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workshop-footer">
+                            <div class="instructor">
+                                <img src="https://via.placeholder.com/40x40/4CAF50/FFFFFF?text=EW" alt="Emma Wilson" class="instructor-avatar">
+                                <span>Led by Emma Wilson</span>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Workshop Process Section -->
+        <section id="process" class="process-section">
+            <h2>How Our Workshops Work</h2>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-sign-in-alt"></i>
+                    </div>
+                    <h3>1. Register</h3>
+                    <p>Choose your workshop and secure your spot through our simple registration process.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>2. Prepare</h3>
+                    <p>Get your workspace ready with our pre-workshop setup guide and materials.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>3. Learn</h3>
+                    <p>Join the interactive session and follow along with our expert instructors.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>4. Practice</h3>
+                    <p>Complete the workshop project and receive feedback from instructors.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Past Workshop Highlights -->
+        <section class="past-workshops">
+            <h2>Past Workshop Highlights</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <img src="https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=UX+Research" 
+                         alt="Students conducting user research workshop session">
+                    <div class="highlight-content">
+                        <h3>UX Research Methods</h3>
+                        <p>Students learned essential user research techniques and conducted real user interviews.</p>
+                        <a href="workshops.html#upcoming-workshops" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img src="https://via.placeholder.com/400x300/45B7D1/FFFFFF?text=Design+Sprint" 
+                         alt="Team collaborating during design sprint workshop">
+                    <div class="highlight-content">
+                        <h3>Design Sprint Challenge</h3>
+                        <p>Teams collaborated to solve real-world design problems in our 4-hour sprint session.</p>
+                        <a href="workshops.html#upcoming-workshops" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Do I need prior experience?</h3>
+                    <p>No prior experience is needed for our beginner workshops. We'll teach you everything from scratch!</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> What should I bring?</h3>
+                    <p>Just bring your laptop with Figma installed. We'll provide all other necessary materials.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Are workshops recorded?</h3>
+                    <p>Yes, all workshops are recorded and available to registered participants for 30 days.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Can I get a refund?</h3>
+                    <p>Full refunds are available up to 48 hours before the workshop starts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="workshop-cta">
+            <h2>Ready to Start Your Design Journey?</h2>
+            <p>Join our community of aspiring designers and start building your UX/UI skills today.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">
+                    <i class="fas fa-sign-in-alt"></i> Register Now
+                </a>
+                <a href="https://discord.gg/flux" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope"></i> Get Updates
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/fluxlogo.png" alt="FLUX Logo" class="footer-nav-logo">
+                <p>University of Michigan's premier Figma and UX design community</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="workshops.html">Workshops</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <ul>
+                    <li><a href="https://instagram.com/flux.umich" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://discord.gg/flux" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                    <li><a href="mailto:flux@umich.edu">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 FLUX - University of Michigan</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

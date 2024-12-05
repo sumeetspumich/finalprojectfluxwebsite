@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/fluxfaviconalt.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>FLUX - Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-top">
+                <div class="logo">
+                    <img src="images/fluxlogo.png" alt="FLUX Logo" class="nav-logo">
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="workshops.html">Workshops</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Hero Section -->
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h1>Get in Touch</h1>
+                <p class="lead">Have questions? We'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <!-- Contact Grid Section -->
+        <section class="contact-grid-section">
+            <div class="contact-grid">
+                <!-- Quick Contact Methods -->
+                <div class="contact-info-card">
+                    <h2>Quick Connect</h2>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope" aria-label="Email Contact"></i>
+                            <div class="method-details">
+                                <h3>Email Us</h3>
+                                <p>General Inquiries: <a href="mailto:flux@umich.edu">flux@umich.edu</a></p>
+                                <p>Workshop Questions: <a href="mailto:workshops@flux.umich.edu">workshops@flux.umich.edu</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-discord" aria-label="Discord Community"></i>
+                            <div class="method-details">
+                                <h3>Join Our Discord</h3>
+                                <p>Get instant responses and connect with the community</p>
+                                <a href="https://discord.gg/flux" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Join Server</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt" aria-label="Location"></i>
+                            <div class="method-details">
+                                <h3>Find Us</h3>
+                                <p>Duderstadt Center</p>
+                                <p>2281 Bonisteel Blvd</p>
+                                <p>Ann Arbor, MI 48109</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    pattern="[a-zA-Z0-9._%+-]+@umich\.edu$"
+                                    placeholder="uniquename@umich.edu"
+                                    title="Please enter a valid @umich.edu email address"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone (Optional)</label>
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    name="phone" 
+                                    pattern="[0-9]*" 
+                                    inputmode="numeric" 
+                                    maxlength="10" 
+                                    placeholder="1234567890"
+                                    onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic...</option>
+                                <option value="workshop">Workshop Question</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" checked>
+                                Subscribe to our newsletter for updates
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="contact-faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle" aria-label="FAQ Question"></i> How quickly will I get a response?</h3>
+                    <p>We typically respond within 24-48 hours on weekdays. For faster responses, join our Discord!</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle" aria-label="FAQ Question"></i> Can non-UMich students join?</h3>
+                    <p>Currently, our workshops are exclusive to University of Michigan students.</p>
+                </div>
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle" aria-label="FAQ Question"></i> How do I join the team?</h3>
+                    <p>We open applications for leadership positions at the beginning of each semester.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Hours Section -->
+        <section class="office-hours">
+            <h2>Drop-In Hours</h2>
+            <div class="hours-grid">
+                <div class="hours-card">
+                    <div class="hours-icon">
+                        <i class="fas fa-clock" aria-label="Office Hours Schedule"></i>
+                    </div>
+                    <h3>Design Help Hours</h3>
+                    <ul class="hours-list">
+                        <li>Monday: 3:00 PM - 5:00 PM</li>
+                        <li>Wednesday: 2:00 PM - 4:00 PM</li>
+                        <li>Friday: 1:00 PM - 3:00 PM</li>
+                    </ul>
+                    <p class="hours-note">Stop by for portfolio reviews and design feedback!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/fluxlogo.png" 
+                     alt="FLUX - University of Michigan's UX Design Community Logo" 
+                     class="footer-nav-logo">
+                <p>University of Michigan's premier Figma and UX design community</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="workshops.html">Workshops</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <ul>
+                    <li><a href="https://instagram.com/flux.umich" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://discord.gg/flux" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                    <li><a href="mailto:flux@umich.edu">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 FLUX - University of Michigan</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
